@@ -1,0 +1,77 @@
+# Build results
+bin/
+obj/
+out/
+Src/bin/
+Src/obj/
+Src/out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio files
+.vs/
+.vscode/
+Src/.vs/
+
+# NuGet packages
+*.nupkg
+# NuGet restore
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# Dotnet CLI
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# StyleCop
+StyleCopReport.xml
+
+# Files built by Visual Studio
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlh
+*.tli
+*.tmp
+*.log
+*.vspscc
+*.vssscc
+
+# Others
+TestResults/
+*.dbmdl
+*.bak
+*.sql
+*.cache
+*.diff
+*.orig
+*.sdf
+*.mdf
+*.ldf
+*.ndj
+*.ndf
+
+# Rider
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
