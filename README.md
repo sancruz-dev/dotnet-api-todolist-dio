@@ -30,29 +30,28 @@ You are expected to create your methods as follows:
 ! [Swagger Methods] (swagger.png)
 
 
-** Endpoints **
+**Endpoints**
 
 
-| Verb | Endpoint | Parameter | Body |
-| --------- | ----------------------------------------------------------------------------------------------------------
-| GET | /Task/{id} | ID | N/A |
-| Put | /Task/{id} | ID | Schema Task |
-| Delete | /Task/{id} | ID | N/A |
-| GET | /Task/Obtertodes | N/A | N/A |
-| GET | /Task/obtaining | Title | N/A |
-| GET | /Task/ObtainPorData | DATE | N/A |
-| GET | /Task/Obtain Popstatus | Status | N/A |
-| Post | /Task | N/A | Schema Task |
+| Verbo  | Endpoint                | Parâmetro | Body          |
+|--------|-------------------------|-----------|---------------|
+| GET    | /Tarefa/{id}            | id        | N/A           |
+| PUT    | /Tarefa/{id}            | id        | Schema Tarefa |
+| DELETE | /Tarefa/{id}            | id        | N/A           |
+| GET    | /Tarefa/ObterTodos      | N/A       | N/A           |
+| GET    | /Tarefa/ObterPorTitulo  | titulo    | N/A           |
+| GET    | /Tarefa/ObterPorData    | data      | N/A           |
+| GET    | /Tarefa/ObterPorStatus  | status    | N/A           |
+| POST   | /Tarefa                 | N/A       | Schema Tarefa |
 
-This is the task schema (model), used to move on to the methods that require
+Esse é o schema (model) de Tarefa, utilizado para passar para os métodos que exigirem
 
-`` `Json
+```json
 {
-  "ID": 0,
-  "Title": "String",
-  "Description": "String",
-  "DATE": "2022-06-08T01: 31: 07.056Z",
-  "Status": "Pending"
+  "id": 0,
+  "titulo": "string",
+  "descricao": "string",
+  "data": "2022-06-08T01:31:07.056Z",
+  "status": "Pendente"
 }
-`` `
-
+```
